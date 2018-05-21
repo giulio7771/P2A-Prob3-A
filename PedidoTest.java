@@ -28,6 +28,7 @@ public class PedidoTest {
         ped.incluirItem(caneta, 10);
         ped.incluirItem(vibrador, 3);
         ped.setTipoEntrega(Sedex.getInstance());
+        // --> Prof. Marcel:Testes automatizados não são feitos com System.out.print para uma verificação visual/manual e sim com assertivas de teste (assert)
         System.out.println("valor entrega " + ped.getValorEntrega());
         System.out.println("valor pedido " + ped.getValorPedido());
         System.out.println("valor total " + ped.getValorTotal());
