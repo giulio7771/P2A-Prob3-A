@@ -1,7 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+--> Prof. Marcel: não foi criado o arquivo texto com o mapeamento.
+--> Prof. Marcel: o parâmetro do método TipoEntrega.getValor(List<ItemPedido> itens) seria mais flexível se fosse Pedido, pois poderia indagar qualquer característica necessária para calcular o valor 
+--> Prof. Marcel: nas diferentes implementações de TipoEntrega (ConcreteStrategies) sempre tem que codificar o cálculo do peso, ao invés de implementar uma única vez em Pedido e chamar este método
+--> Prof. Marcel: o método main (abaixo) não alternou entre diferentes tipos de entrega para o mesmo pedido, como foi solicitado.
+
+--> Prof. Marcel: Testes automatizados não são feitos com System.out.print para uma verificação visual/manual e sim com assertivas de teste (assert)     
+
+--> Nota: 2,2
  */
 package main;
 
